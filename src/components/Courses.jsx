@@ -4,8 +4,8 @@ import CoursesType from './CoursesType'
 
 export default function Courses() { 
     return ( 
-        <>
-            <h1>Check out our most popular courses!</h1>
+        <div className='bg-gradient-to-b from-white to-[#f0f1ff] mb-10'>
+            <h1 className='bg-gradient-to-b from-[#FF6F48] to-[#F02AA6] text-2xl text-white rounded-xl px-6 py-8 m-4'>Check out our most <br /> popular courses!</h1>
             <CoursesType
             img="icon-animation.svg"
             type="animation"
@@ -20,24 +20,24 @@ export default function Courses() {
   how the web looks."
             />
             <CoursesType 
-                Img="icon-photography.svg"
+                img="icon-photography.svg"
                 type="Photography"
                 para="Explore critical fundamentals like lighting, composition, and focus 
   to capture exceptional photos."
             />
                 <CoursesType 
-                 Img="icon-Crypto.svg"
+                 img="icon-Crypto.svg"
                 type="Crypto"
                 para="All you need to know to get started investing in crypto. Go from beginner 
   to advanced with this 54 hour course." 
             />
             <CoursesType 
-                 Img="icon-business.svg"
+                 img="icon-business.svg"
                 type="Business"
                 para="A step-by-step playbook to help you start, scale, and sustain your business 
   without outside investment." 
             />
 
-        </>
+        </div>
     )
 }
