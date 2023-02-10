@@ -5,7 +5,7 @@ import DesignImg from '../src/assets/svg/icon-design.svg';
 import PhotographyImg from '../src/assets/svg/icon-Photography.svg';
 
 
-export const Data = [
+export default [
    
     { 
         id: 1,
