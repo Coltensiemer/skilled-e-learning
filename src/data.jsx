@@ -1,4 +1,5 @@
-export default [ 
+export default [
+   
     { 
         id: 1,
         img:"icon-animation.svg",
@@ -32,4 +33,5 @@ export default [
         para: "A step-by-step playbook to help you start, scale, and sustain your business without outside investment."
 
     }
-]
+    
+] 

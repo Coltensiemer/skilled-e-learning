@@ -1,7 +1,7 @@
 import React from 'react'
-import MoblieImage from '/src/assets/image-hero-mobile.png';
-import TabletImage from '/src/assets/image-hero-tablet.png';
-import DeskImage from '/src/assets/image-hero-desktop.png'; 
+import MoblieImage from '/src/assets/images/image-hero-mobile.png';
+import TabletImage from '/src/assets/images/image-hero-tablet.png';
+import DeskImage from '/src/assets/images/image-hero-desktop.png'; 
 
 export default function HeroImg() { 
     return (
