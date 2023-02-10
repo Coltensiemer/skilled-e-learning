@@ -1,6 +1,7 @@
 import React from 'react'
 
 
+
 // This loads into Courses.JSX 
 export default function CoursesType({img, type, para}) { 
     return ( 
