@@ -1,12 +1,12 @@
 import React from 'react'
 import CoursesType from './CoursesType'
-import data from '../data'
+import {Data} from '../Data'
 
 
 export default function Courses() { 
 
 // Taking all the data from the 'data.js, looping over and producing the courses with an id. 
-   const courses = data.map(e => { 
+   const courses = Data.map(e => { 
     return(
         <CoursesType 
         key={e.id}
