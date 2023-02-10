@@ -1,6 +1,6 @@
 import React from 'react'
 import CoursesType from './CoursesType'
-import {Data} from '../Data'
+import Data from '../Data'
 
 
 export default function Courses() { 
