@@ -2,7 +2,7 @@ import AnimationImg from '../src/assets/svg/icon-animation.svg';
 import BusinessImg from '../src/assets/svg/icon-business.svg';
 import CryptoImg from '../src/assets/svg/icon-crypto.svg';
 import DesignImg from '../src/assets/svg/icon-design.svg';
-import PhotographyImg from '../src/assets/svg/icon-Photography.svg';
+import PhotographyImg from '../src/assets/svg/icon-photography.svg';
 
 
 export default [
